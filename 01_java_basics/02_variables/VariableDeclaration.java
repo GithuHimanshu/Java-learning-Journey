@@ -1,9 +1,8 @@
-class VariableDeclaration{
-  public static void main(String args[]){
-    int numApples = 1000;
-    int numPackedApples = 1_000_000;
+class VariableDeclaration {
+  public static void main(String args[]) {
+    // DataType variableName = initialization;
 
-    System.out.println(numApples);
-    System.out.println(numPackedApples);
+    int age;
+    System.out.println(age);// The local variable age may not have been initialized
   }
 }
